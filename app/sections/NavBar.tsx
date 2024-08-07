@@ -48,7 +48,7 @@ const NavBar = () => {
                         </h4>
                     </Link>
 
-                    <Link
+                    {/* <Link
                         href="#work"
                         data-blobity-magnetic="false"
                         onClick={handleScroll}
@@ -57,7 +57,7 @@ const NavBar = () => {
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
               WORK
                         </h4>
-                    </Link>
+                    </Link> */}
 
                     <Link
                         href="#contact"

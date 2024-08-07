@@ -7,7 +7,8 @@ import {
     SiGithub,SiPostgresql,SiMysql,
     SiJavascript, SiNextdotjs, SiReact, SiTypescript,
     SiMongodb,
-    SiNodedotjs
+    SiNodedotjs,
+    SiJenkins
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -58,7 +59,7 @@ const Tools = () => {
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
                                 <SiGithub size={50}/>
                                 <SiGit size={50}/>
-                                
+                                <SiJenkins size={50} />
                             </AnimatedTools>
                         </div>
                     </div>
